@@ -3,6 +3,7 @@
 import React, { PropTypes } from 'react';
 import withStyles from '../../decorators/withStyles';
 import styles from './RegisterPage.css';
+import TextBox from '../TextBox'
 
 @withStyles(styles)
 class RegisterPage {
@@ -18,7 +19,10 @@ class RegisterPage {
       <div className="RegisterPage">
         <div className="RegisterPage-container">
           <h1>{title}</h1>
-          <p>...</p>
+          <div>
+            <TextBox placeholder="请输入邮箱"/>
+            <TextBox placeholder="请输入密码" type="password"/>
+          </div>
         </div>
       </div>
     );

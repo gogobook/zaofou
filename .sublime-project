@@ -1,0 +1,5 @@
+{
+  "syntax_override": {
+    "\\.js$": ["JavaScriptNext - ES6 Syntax", "JavaScriptNext"]
+  }
+}
